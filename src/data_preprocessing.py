@@ -26,3 +26,25 @@ def save_cleaned_data(data, output_path):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     data.to_csv(output_path, index=False)
     print(f"Cleaned data saved to {output_path}")
+
+def preprocess_data(raw_filepath, processed_filepath):
+    """
+    Preprocess the stock data by loading, cleaning, and saving it.
+
+    Args:
+        raw_filepath (str): Path to the raw data CSV file.
+        processed_filepath (str): Path to save the processed data CSV file.
+
+    Returns:
+        DataFrame: The cleaned data.
+    """
+    print("Loading raw data...")
+    stock_data = load_data(raw_filepath)
+
+    print("Cleaning data...")
+    cleaned_data = clean_data(stock_data)
+
+    print("Saving cleaned data...")
+    save_cleaned_data(cleaned_data, processed_filepath)
+
+    return cleaned_data
