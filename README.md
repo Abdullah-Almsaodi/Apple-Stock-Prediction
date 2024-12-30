@@ -2,16 +2,16 @@
 
 ## Overview
 
-This project focuses on predicting Apple Inc.'s stock prices using historical data. The objective is to preprocess the data, analyze trends, engineer features, and build predictive models. The project leverages **Python** and integrates tools for data exploration, visualization, and machine learning.
+This project focuses on predicting Apple Inc.'s stock prices using historical data from 1980 to 2024. The objective is to preprocess the data, analyze trends, engineer features, and build predictive models using Long Short-Term Memory (LSTM) neural networks. The project leverages Python and integrates tools for data exploration, visualization, and advanced machine learning techniques to provide accurate predictions of future stock prices.
 
 ## Features
 
-- Collection and preprocessing of Apple stock data
-- Exploratory Data Analysis (EDA) with visualizations
-- Feature engineering for improved predictive accuracy
-- Training and evaluation of machine learning models
-- Prediction of future stock prices
-- Modular, reusable scripts for data processing, visualization, and model training
+- Collection and preprocessing of Apple stock data from 1980 to 2024
+- Exploratory Data Analysis (EDA) with detailed visualizations
+- Feature engineering to enhance predictive accuracy
+- Training and evaluation of predictive models using Long Short-Term Memory (LSTM) neural networks
+- Prediction of future Apple stock prices based on historical trends
+- Modular, reusable scripts for data preprocessing, visualization, and model training
 
 ## Prerequisites
 
